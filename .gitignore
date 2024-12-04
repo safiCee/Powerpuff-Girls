@@ -1,0 +1,32 @@
+# Ignore STM32CubeMX generated files
+/.settings
+/Debug/
+/Release/
+/Makefile
+/STM32CubeIDE/.metadata
+
+# Ignore build output files
+*.bin
+*.hex
+*.elf
+*.o
+*.a
+*.d
+
+# Ignore IDE specific files (STM32CubeIDE, KEIL, etc.)
+*.launch
+*.project
+*.cproject
+*.swp
+*.swo
+*.iml
+
+# Ignore debug files
+*.gdb
+*.stackdump
+
+# Ignore dependency files
+*.dep
+
+# Ignore user-specific files
+*.user
